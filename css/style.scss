@@ -1,0 +1,139 @@
+@charset "utf-8";
+/* CSS Document */
+
+$primary-color: linear-gradient(to right, rgb(23, 179, 226), blueviolet);
+$secondary-color: lightgreen;
+$h1-radius: 50px 20px;
+$sarif: 'EB Garamond', serif;
+$sansarif: 'Bebas Neue', cursive;
+
+.col h1, h2, h3, h4, h5, p {
+    margin: 16px;
+    padding: 8px;
+}
+
+.navigation {
+    img {
+        width: 200px;
+        height: auto;
+    }
+}
+
+.jumbotron {
+    margin-top: 16px;
+}
+
+.about {
+    h1{
+        background-image: $primary-color;
+        color: $secondary-color;
+        border-radius: $h1-radius;
+        text-align: center;
+        text-decoration: underline;
+        font-family: 'Volkhov', serif;
+    }
+    .text {
+        background-color: lightgreen;
+        border-radius: 16px;
+        padding: 8px;
+        h3 {
+            font-family: 'Volkhov', serif;
+        }
+    }
+    p {
+        text-indent: 12px;
+    }
+}
+
+.websites {
+    h1{
+        background-image: $primary-color;
+        color: $secondary-color;
+        border-radius: $h1-radius;
+        text-align: center;
+        text-decoration: underline;
+        font-family: 'Volkhov', serif;
+    }
+    .text {
+        background-color: lightgreen;
+        border-radius: 16px;
+        padding: 8px;
+        h3 {
+            font-family: 'Volkhov', serif;
+        }
+    }
+    p {
+        text-indent: 12px;
+    }
+    img {
+        margin: 8px;
+        width: 48%;
+        height: auto;
+    }
+}
+
+.photography {
+    h1{
+        background-image: $primary-color;
+        color: $secondary-color;
+        border-radius: $h1-radius;
+        text-align: center;
+        text-decoration: underline;
+        font-family: 'Volkhov', serif;
+    }
+    .text {
+        background-color: lightgreen;
+        border-radius: 16px;
+        padding: 8px;
+        margin-bottom: 16px;
+        h3 {
+            font-family: 'Volkhov', serif;
+        }
+    }
+    p {
+        text-indent: 12px;
+    }
+}
+
+.contact {
+    h1{
+        background-image: $primary-color;
+        color: $secondary-color;
+        border-radius: $h1-radius;
+        text-align: center;
+        text-decoration: underline;
+        font-family: 'Volkhov', serif;
+    }
+    .mb-4 {
+        background-color: $secondary-color;
+        padding: 16px;
+        border-radius: 16px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .websites {
+        h1{
+            background-image: $primary-color;
+            color: $secondary-color;
+            border-radius: $h1-radius;
+            text-align: center;
+            text-decoration: underline;
+            font-family: 'Volkhov', serif;
+        }
+        img {
+            margin-left: 0px;
+            width: 100%;
+            height: auto;
+        }
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .navigation {
+        img {
+            width: 150px;
+            height: auto;
+        }
+    }
+}

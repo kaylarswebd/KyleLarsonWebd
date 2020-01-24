@@ -1,0 +1,134 @@
+/* CSS Document */
+.col h1, h2, h3, h4, h5, p {
+  margin: 16px;
+  padding: 8px;
+}
+
+.navigation img {
+  width: 200px;
+  height: auto;
+}
+
+.jumbotron {
+  margin-top: 16px;
+}
+
+.about h1 {
+  background-image: -webkit-gradient(linear, left top, right top, from(#17b3e2), to(blueviolet));
+  background-image: linear-gradient(to right, #17b3e2, blueviolet);
+  color: lightgreen;
+  border-radius: 50px 20px;
+  text-align: center;
+  text-decoration: underline;
+  font-family: 'Volkhov', serif;
+}
+
+.about .text {
+  background-color: lightgreen;
+  border-radius: 16px;
+  padding: 8px;
+}
+
+.about .text h3 {
+  font-family: 'Volkhov', serif;
+}
+
+.about p {
+  text-indent: 12px;
+}
+
+.websites h1 {
+  background-image: -webkit-gradient(linear, left top, right top, from(#17b3e2), to(blueviolet));
+  background-image: linear-gradient(to right, #17b3e2, blueviolet);
+  color: lightgreen;
+  border-radius: 50px 20px;
+  text-align: center;
+  text-decoration: underline;
+  font-family: 'Volkhov', serif;
+}
+
+.websites .text {
+  background-color: lightgreen;
+  border-radius: 16px;
+  padding: 8px;
+}
+
+.websites .text h3 {
+  font-family: 'Volkhov', serif;
+}
+
+.websites p {
+  text-indent: 12px;
+}
+
+.websites img {
+  margin: 8px;
+  width: 48%;
+  height: auto;
+}
+
+.photography h1 {
+  background-image: -webkit-gradient(linear, left top, right top, from(#17b3e2), to(blueviolet));
+  background-image: linear-gradient(to right, #17b3e2, blueviolet);
+  color: lightgreen;
+  border-radius: 50px 20px;
+  text-align: center;
+  text-decoration: underline;
+  font-family: 'Volkhov', serif;
+}
+
+.photography .text {
+  background-color: lightgreen;
+  border-radius: 16px;
+  padding: 8px;
+  margin-bottom: 16px;
+}
+
+.photography .text h3 {
+  font-family: 'Volkhov', serif;
+}
+
+.photography p {
+  text-indent: 12px;
+}
+
+.contact h1 {
+  background-image: -webkit-gradient(linear, left top, right top, from(#17b3e2), to(blueviolet));
+  background-image: linear-gradient(to right, #17b3e2, blueviolet);
+  color: lightgreen;
+  border-radius: 50px 20px;
+  text-align: center;
+  text-decoration: underline;
+  font-family: 'Volkhov', serif;
+}
+
+.contact .mb-4 {
+  background-color: lightgreen;
+  padding: 16px;
+  border-radius: 16px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .websites h1 {
+    background-image: -webkit-gradient(linear, left top, right top, from(#17b3e2), to(blueviolet));
+    background-image: linear-gradient(to right, #17b3e2, blueviolet);
+    color: lightgreen;
+    border-radius: 50px 20px;
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Volkhov', serif;
+  }
+  .websites img {
+    margin-left: 0px;
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .navigation img {
+    width: 150px;
+    height: auto;
+  }
+}
+/*# sourceMappingURL=style.css.map */
