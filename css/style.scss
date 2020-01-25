@@ -32,8 +32,11 @@ $sansarif: 'Bebas Neue', cursive;
         text-decoration: underline;
         font-family: 'Volkhov', serif;
     }
+    #para1 {
+        margin-bottom: 16px;
+    }
     .text {
-        background-color: lightgreen;
+        background-color: $secondary-color;
         border-radius: 16px;
         padding: 8px;
         h3 {
@@ -55,7 +58,7 @@ $sansarif: 'Bebas Neue', cursive;
         font-family: 'Volkhov', serif;
     }
     .text {
-        background-color: lightgreen;
+        background-color: $secondary-color;
         border-radius: 16px;
         padding: 8px;
         h3 {
@@ -66,9 +69,12 @@ $sansarif: 'Bebas Neue', cursive;
         text-indent: 12px;
     }
     img {
-        margin: 8px;
-        width: 48%;
+        padding: 8px;
+        width: 100%;
         height: auto;
+    }
+    img:hover  {
+        opacity: .5;
     }
 }
 
@@ -82,7 +88,7 @@ $sansarif: 'Bebas Neue', cursive;
         font-family: 'Volkhov', serif;
     }
     .text {
-        background-color: lightgreen;
+        background-color: $secondary-color;
         border-radius: 16px;
         padding: 8px;
         margin-bottom: 16px;
@@ -111,7 +117,35 @@ $sansarif: 'Bebas Neue', cursive;
     }
 }
 
+.footer {
+    p {
+        color: white;
+    }
+    .socialicons {
+        h3 {
+            color: white;
+            text-align: center;
+        }
+        .imglinks {
+            display: flex;
+            justify-content: center;
+        }
+        img {
+            width: 50px;
+            height: 50px;
+            margin: 4px;
+        }
+    }
+    .copyright {
+        text-align: center;
+    }
+}
+
 @media only screen and (max-width: 1000px) {
+    h1, h2, h3, h4, h5, p {
+        font-size: .9;
+    }
+
     .websites {
         h1{
             background-image: $primary-color;
@@ -130,6 +164,10 @@ $sansarif: 'Bebas Neue', cursive;
 }
 
 @media only screen and (max-width: 500px) {
+    h1, h2, h3, h4, h5, p {
+        font-size: .8;
+    }
+
     .navigation {
         img {
             width: 150px;

@@ -23,6 +23,10 @@
   font-family: 'Volkhov', serif;
 }
 
+.about #para1 {
+  margin-bottom: 16px;
+}
+
 .about .text {
   background-color: lightgreen;
   border-radius: 16px;
@@ -62,9 +66,13 @@
 }
 
 .websites img {
-  margin: 8px;
-  width: 48%;
+  padding: 8px;
+  width: 100%;
   height: auto;
+}
+
+.websites img:hover {
+  opacity: .5;
 }
 
 .photography h1 {
@@ -108,7 +116,38 @@
   border-radius: 16px;
 }
 
+.footer p {
+  color: white;
+}
+
+.footer .socialicons h3 {
+  color: white;
+  text-align: center;
+}
+
+.footer .socialicons .imglinks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer .socialicons img {
+  width: 50px;
+  height: 50px;
+  margin: 4px;
+}
+
+.footer .copyright {
+  text-align: center;
+}
+
 @media only screen and (max-width: 1000px) {
+  h1, h2, h3, h4, h5, p {
+    font-size: .9;
+  }
   .websites h1 {
     background-image: -webkit-gradient(linear, left top, right top, from(#17b3e2), to(blueviolet));
     background-image: linear-gradient(to right, #17b3e2, blueviolet);
@@ -126,6 +165,9 @@
 }
 
 @media only screen and (max-width: 500px) {
+  h1, h2, h3, h4, h5, p {
+    font-size: .8;
+  }
   .navigation img {
     width: 150px;
     height: auto;
