@@ -100,6 +100,31 @@
   text-indent: 12px;
 }
 
+.test h1 {
+  background-image: -webkit-gradient(linear, left top, right top, from(#17b3e2), to(blueviolet));
+  background-image: linear-gradient(to right, #17b3e2, blueviolet);
+  color: lightgreen;
+  border-radius: 50px 20px;
+  text-align: center;
+  text-decoration: underline;
+  font-family: 'Volkhov', serif;
+}
+
+.test .text {
+  background-color: lightgreen;
+  border-radius: 16px;
+  padding: 8px;
+  margin-bottom: 16px;
+}
+
+.test .text h3, .test .text h5 {
+  font-family: 'Volkhov', serif;
+}
+
+.test p {
+  text-indent: 12px;
+}
+
 .contact h1 {
   background-image: -webkit-gradient(linear, left top, right top, from(#17b3e2), to(blueviolet));
   background-image: linear-gradient(to right, #17b3e2, blueviolet);
@@ -166,11 +191,14 @@
 
 @media only screen and (max-width: 500px) {
   h1, h2, h3, h4, h5, p {
-    font-size: .8;
+    font-size: .8em;
   }
   .navigation img {
     width: 150px;
     height: auto;
+  }
+  .jumbotron h1 {
+    font-size: 3em;
   }
 }
 /*# sourceMappingURL=style.css.map */

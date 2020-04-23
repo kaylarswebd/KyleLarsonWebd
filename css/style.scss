@@ -101,6 +101,29 @@ $sansarif: 'Bebas Neue', cursive;
     }
 }
 
+.test {
+    h1{
+        background-image: $primary-color;
+        color: $secondary-color;
+        border-radius: $h1-radius;
+        text-align: center;
+        text-decoration: underline;
+        font-family: 'Volkhov', serif;
+    }
+    .text {
+        background-color: $secondary-color;
+        border-radius: 16px;
+        padding: 8px;
+        margin-bottom: 16px;
+        h3, h5 {
+            font-family: 'Volkhov', serif;
+        }
+    }
+    p {
+        text-indent: 12px;
+    }
+}
+
 .contact {
     h1{
         background-image: $primary-color;
@@ -165,13 +188,19 @@ $sansarif: 'Bebas Neue', cursive;
 
 @media only screen and (max-width: 500px) {
     h1, h2, h3, h4, h5, p {
-        font-size: .8;
+        font-size: .8em;
     }
 
     .navigation {
         img {
             width: 150px;
             height: auto;
+        }
+    }
+
+    .jumbotron {
+        h1 {
+            font-size: 3em;
         }
     }
 }
